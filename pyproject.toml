@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "versatil-constants"
+version = "0.1.0"
+description = "Shared domain constants for the VersatIL imitation learning ecosystem"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    {name = "Lorenzo Mazza", email = "lorenzo.mazza@nct-dresden.de"},
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Lorenzo-Mazza/versatil-constants"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/versatil_constants"]
