@@ -7,7 +7,6 @@ class MetaWorldCamera(str, Enum):
     """Camera observation keys for MetaWorld environments."""
 
     AGENTVIEW = "agentview_rgb"
-    IMAGE_LEROBOT = "observation.image"
 
 
 class MetaWorldProprioKey(str, Enum):

@@ -8,10 +8,6 @@ class LiberoCamera(str, Enum):
 
     AGENTVIEW = "agentview_rgb"
     EYE_IN_HAND = "eye_in_hand_rgb"
-    IMAGE = "observation.images.image"
-    IMAGE_2 = "observation.images.image2"
-    FRONT = "observation.images.front"
-    WRIST = "observation.images.wrist"
 
 
 class LiberoProprioKey(str, Enum):
