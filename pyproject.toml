@@ -13,9 +13,19 @@ authors = [
     {name = "Lorenzo Mazza", email = "lorenzo.mazza@nct-dresden.de"},
 ]
 dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
 
 [project.urls]
-Repository = "https://github.com/Lorenzo-Mazza/versatil-constants"
+Repository = "https://github.com/Lorenzo-Mazza/versatil_constants"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/versatil_constants"]
