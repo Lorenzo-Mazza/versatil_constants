@@ -6,7 +6,7 @@
 
 Shared domain constants for the VersatIL imitation learning ecosystem. Zero dependencies.
 
-Each "world" (TSO robot testbed, Libero simulation, MetaWorld simulation) has its own module defining observation and action keys that cross the wire between inference clients and environment servers. Shared constants (language keys, gripper types, coordinate systems) live in `shared`.
+Each "world" (TSO robot testbed, Libero simulation, MetaWorld simulation, etc.) has its own module defining observation and action keys that cross the wire between inference clients and environment servers. Shared constants (language keys, gripper types, coordinate systems) live in `shared`.
 
 ## Installation
 
@@ -34,7 +34,7 @@ from versatil_constants.metaworld import MetaWorldCamera, MetaWorldProprioKey
 
 | Module | Contents |
 |--------|----------|
-| `shared` | `ObsKey`, `GripperType`, `BinaryGripperRange`, `ActionComputationMethod`, `CoordinateSystem`, `OrientationRepresentation` |
+| `shared` | `ObsKey`, `GripperType`, `BinaryGripperRange`, `ActionComputationMethod`, `CoordinateSystem`, `OrientationRepresentation`, `ActionComponent`, `ActionMetadataField` |
 | `tso` | `TSOCamera`, `TSOProprioKey` |
 | `libero` | `LiberoCamera`, `LiberoProprioKey` |
 | `metaworld` | `MetaWorldCamera`, `MetaWorldProprioKey` |

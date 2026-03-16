@@ -1,7 +1,9 @@
 """Shared domain constants for the VersatIL imitation learning ecosystem."""
 
 from versatil_constants.shared import (
+    ActionComponent,
     ActionComputationMethod,
+    ActionMetadataField,
     BinaryGripperRange,
     CoordinateSystem,
     GripperType,
@@ -22,7 +24,9 @@ from versatil_constants.metaworld import (
 )
 
 __all__ = [
+    "ActionComponent",
     "ActionComputationMethod",
+    "ActionMetadataField",
     "BinaryGripperRange",
     "CoordinateSystem",
     "GripperType",

@@ -46,3 +46,23 @@ class OrientationRepresentation(str, Enum):
     ROLL = "roll"
     EULER = "euler"
     QUATERNION = "quaternion"
+
+
+class ActionComponent(str, Enum):
+    """Action component identifiers in structured action payloads."""
+
+    POSITION = "position"
+    ORIENTATION = "orientation"
+    GRIPPER = "gripper"
+    CUSTOM = "custom"
+
+
+class ActionMetadataField(str, Enum):
+    """Field names within action metadata entries."""
+
+    DIMENSION = "dimension"
+    GRIPPER_TYPE = "gripper_type"
+    BINARY_GRIPPER_RANGE = "binary_gripper_range"
+    ORIENTATION_REPRESENTATION = "orientation_representation"
+    ACTION_TYPE = "action_type"
+    FRAME = "frame"

@@ -9,6 +9,8 @@ class TSOCamera(str, Enum):
     LEFT = "left"
     RIGHT = "right"
     DEPTH = "depth"
+    DISPARITY_MAP = "disparity_map"
+    POINT_CLOUD = "point_cloud"
 
 
 class TSOProprioKey(str, Enum):

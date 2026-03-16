@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Shared wire protocol constants: `ActionComponent`, `ActionMetadataField`.
+- TSO camera keys: `DISPARITY_MAP`, `POINT_CLOUD`.
+
 ## [0.1.0] - 2026-03-15
 
 ### Added
