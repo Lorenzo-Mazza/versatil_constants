@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-03-16
+
 ### Added
 - Shared wire protocol constants: `ActionComponent`, `ActionMetadataField`.
 - TSO camera keys: `DISPARITY_MAP`, `POINT_CLOUD`.
@@ -19,5 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Libero world constants: `LiberoCamera`, `LiberoProprioKey`.
 - MetaWorld world constants: `MetaWorldCamera`, `MetaWorldProprioKey`.
 
-[Unreleased]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/Lorenzo-Mazza/versatil_constants/releases/tag/v0.1.0
