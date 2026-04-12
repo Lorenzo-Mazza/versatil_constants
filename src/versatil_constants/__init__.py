@@ -12,6 +12,7 @@ from versatil_constants.shared import (
 )
 from versatil_constants.tso import (
     TSOCamera,
+    TSOObsKey,
     TSOProprioKey,
 )
 from versatil_constants.libero import (
@@ -37,5 +38,6 @@ __all__ = [
     "ObsKey",
     "OrientationRepresentation",
     "TSOCamera",
+    "TSOObsKey",
     "TSOProprioKey",
 ]

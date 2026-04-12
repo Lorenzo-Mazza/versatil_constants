@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-04-12
+
+### Added
+- TSO observation keys: `TSOObsKey` with `PHASE_LABEL`.
+
+### Changed
+- **Breaking:** Moved `PHASE_LABEL` from `ObsKey` (shared) to `TSOObsKey` (tso). `ObsKey` now only contains `LANGUAGE`.
+
 ## [0.1.1] - 2026-03-16
 
 ### Added
@@ -21,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Libero world constants: `LiberoCamera`, `LiberoProprioKey`.
 - MetaWorld world constants: `MetaWorldCamera`, `MetaWorldProprioKey`.
 
-[Unreleased]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/Lorenzo-Mazza/versatil_constants/releases/tag/v0.1.0

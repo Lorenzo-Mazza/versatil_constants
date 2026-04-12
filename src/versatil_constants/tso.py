@@ -13,6 +13,12 @@ class TSOCamera(str, Enum):
     POINT_CLOUD = "point_cloud"
 
 
+class TSOObsKey(str, Enum):
+    """Non-proprioceptive observation keys for TSO surgical robotics tasks."""
+
+    PHASE_LABEL = "phase_label"
+
+
 class TSOProprioKey(str, Enum):
     """Proprioceptive observation and action keys for the TSO testbed."""
 

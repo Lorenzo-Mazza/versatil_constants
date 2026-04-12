@@ -4,10 +4,9 @@ from enum import Enum
 
 
 class ObsKey(str, Enum):
-    """Observation keys common to all environments."""
+    """Non-proprioceptive observation keys shared across all environments."""
 
     LANGUAGE = "language_instruction"
-    PHASE_LABEL = "phase_label"
 
 
 class GripperType(str, Enum):
