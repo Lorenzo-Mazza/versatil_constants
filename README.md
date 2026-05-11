@@ -1,6 +1,6 @@
 # versatil_constants
 
-[![Tests](https://github.com/Lorenzo-Mazza/versatil_constants/actions/workflows/test.yml/badge.svg)](https://github.com/Lorenzo-Mazza/versatil_constants/actions/workflows/test.yml)
+[![Tests](https://github.com/nct-tso-robotics/versatil_constants/actions/workflows/test.yml/badge.svg)](https://github.com/nct-tso-robotics/versatil_constants/actions/workflows/test.yml)
 [![PyPI](https://img.shields.io/pypi/v/versatil-constants)](https://pypi.org/project/versatil-constants/)
 [![Python](https://img.shields.io/pypi/pyversions/versatil-constants)](https://pypi.org/project/versatil-constants/)
 

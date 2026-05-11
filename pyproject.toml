@@ -25,7 +25,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/Lorenzo-Mazza/versatil_constants"
+Repository = "https://github.com/nct-tso-robotics/versatil_constants"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/versatil_constants"]
