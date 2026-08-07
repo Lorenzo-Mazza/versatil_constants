@@ -20,6 +20,7 @@ from versatil_constants.libero import (
     LiberoProprioKey,
 )
 from versatil_constants.blockpush import BlockPushProprioKey
+from versatil_constants.endoscope import EndoscopeProprioKey
 from versatil_constants.kitchen import KitchenCamera, KitchenProprioKey
 from versatil_constants.metaworld import (
     MetaWorldCamera,
@@ -36,6 +37,7 @@ __all__ = [
     "BinaryGripperRange",
     "BlockPushProprioKey",
     "CoordinateSystem",
+    "EndoscopeProprioKey",
     "GripperType",
     "KitchenCamera",
     "KitchenProprioKey",
